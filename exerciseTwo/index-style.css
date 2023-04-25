@@ -1,0 +1,174 @@
+p:hover {
+
+  font-weight: 100;
+  color: white;
+  background-color: black;
+  line-height:3;
+}
+
+#titleOfMainContent {
+
+  font-family: 'Segoe UI';
+  font-weight: bolder;
+  font-style: oblique;
+  text-align: center;
+}
+#titleOfMainContent:hover {
+
+  text-decoration: underline;
+}
+
+
+#viewsAndPublicationDate {
+
+  text-align: center;
+  font-family: 'Gill Sans';
+  font-weight: 600;
+} 
+
+#viewsAndPublicationDate:hover {
+
+  font-weight:200;
+}
+
+#publicationDate {
+  
+  text-align: left;
+  /* font-weight: 400; */
+  transition: all 40ms;
+}
+#publicationDate:hover {
+  
+  border-color: white;
+  color: aqua;
+  background-color: rgba(105, 60, 60, 0.601);
+  font-style: italic;
+  /* font-weight: 400; */
+}
+
+
+
+#views {
+
+  text-align: right;
+  font-weight: 900;
+  font-family:   'Times', "serif";
+}
+
+#views:hover {
+
+  background-color: thistle;
+  color: blanchedalmond;
+}
+
+
+/* STYLING CHALLENGE from supersimplewebdev */
+/* Styles for PRACTICE PROBLEM ONE  */
+
+
+.challengeExerciseBatchTwo {
+  font-family: Arial;
+}
+
+#practiceProblemOne {
+  text-align: center;
+}
+
+#arrivalStatus {
+
+  color: green;
+}
+
+#productName {
+
+  font-weight: 500;
+}
+
+#marketingQuote {
+
+  font-weight: 900;
+}
+
+#price {
+  font-weight: 300;
+}
+
+#purchaseButton {
+
+  font-weight: bold;
+  
+  background-color: rgba(40, 0, 170, 0.823);
+  color: white;
+
+  border-radius: 30px;
+  border: none;
+
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* PRACTICE PROBLEM TWO */
+#textContainer {
+  color: black;
+  padding-left: 10px;
+}
+#textContainer:hover {
+  color: white;
+}
+
+#money {
+  font-weight: bold;
+}
+
+.normalColoredText {
+  color: gray;
+}
+
+#latestUpdate {
+  color: green;
+}
+
+#prevData {
+  color: rgb(174, 9, 9);
+}
+
+
+
+
+/* PRACTICE PROBLEM THREE */
+
+#orgName {
+  font-weight: 400;
+}
+ 
+#authorAndDate {
+  color: gray;
+}
+/* 
+I don't know much about using the percentage unit, 
+trying it out because the auto suggest showed it.
+*/
+#message {
+  max-inline-size: 70%;
+  color:black;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#message:hover {
+  line-height: normal;
+  color:white;
+}
+
+#referToOtherParty {
+  color: blue;
+}
+
+
+
+
+
+
+
+
