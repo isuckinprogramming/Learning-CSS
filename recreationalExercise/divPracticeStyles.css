@@ -1,0 +1,45 @@
+#boxDiv{
+  background-color: green;
+  color: green;
+  display:  inline-block;
+  width: 250px;
+}
+
+#circleDiv {
+
+  background-color: rebeccapurple;
+  color:  rebeccapurple;
+  display: inline block;
+  border-radius: 70px;
+  width: 15px;
+
+}
+
+.divTextContentPractice {
+  color:white;
+  background-color: black;
+  padding: 10px;
+  margin : 20px;
+
+}
+
+.divWithButtonPractice{
+  border-color:  black;
+  border-style: double;
+  padding: 40px
+
+}
+
+.askingButton {
+
+  border-radius:  20px;
+  background-color: rgba(203, 157, 248, 0.74);
+  margin-left:  20px;
+  margin-right:  20px;
+}
+
+
+.title {
+  font-weight: 400;
+  margin-bottom: 20px;
+}

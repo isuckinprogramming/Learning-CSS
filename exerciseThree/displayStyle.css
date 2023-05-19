@@ -24,8 +24,13 @@ body {
 
 
 .videoHolder {
-
+  vertical-align: top;
   display: inline-block;
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top:  10px;
+  margin-bottom:  10px;
 }
 
 .videoDetails {
