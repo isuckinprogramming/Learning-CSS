@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>exercise four | Trying out CSS Grid </title>
+
+  <link rel="stylesheet" href="tutorialExampleStylesheet.css">
+
+</head>
+<body>
+  
+  <!-- 
+    Inline styles will be used for this file because
+    it will be easier to view the styles and the html
+    elements and contents if all of the variables are
+    in one space. 
+   -->
+  
+  
+   <div style=" 
+      display: grid;
+      grid-template-columns: 200px 200px;
+   ">
+
+    <div style=" background-color: lightcoral; ">
+    left div
+    </div>
+
+    <div style="background-color: lightgreen;">
+      right div
+    </div>
+  </div>
+
+
+
+  <!-- 
+    
+    fr unit means that the space value is equivalent to whatever is the 
+    free space available inside the website. 
+
+    works like the grid box layout manager in java, with the way
+    weights and columns and rows work. 
+
+    though I don't know how to specifically assign an html element to a
+    position in the grid. 
+
+   -->
+  <div style=" 
+      display: grid;
+      grid-template-columns: 2fr 7fr;
+      margin-top:  25px;
+  ">
+
+    <div style=" background-color: lightcoral; ">
+    left div
+    </div>
+
+    <div style="background-color: lightgreen;">
+      right div
+    </div>
+
+    <div style=" background-color: lightcoral; ">
+    left div
+    </div>
+
+    <div style="background-color: lightgreen;">
+      right div
+    </div>
+    
+    <div style=" background-color: lightcoral; ">
+    left div
+    </div>
+
+    <div style="background-color: lightgreen;">
+      right div
+    </div>
+    
+  </div>
+
+  <!-- trying out CSS Grid with external stylesheet. -->
+  <div class="outerContainer">
+    <div class="innerContainer">
+      <p>text in the right side.</p>
+    </div>
+    <div class="innerContainer">
+      <p>text in the left side.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+
+.outerContainer {
+    
+  margin-top:  15px;
+  display: grid;
+  grid-template-columns: 200px 200px 1fr;
+}
+
+.innerContainer {
+  background-color: lightsalmon;
+}
