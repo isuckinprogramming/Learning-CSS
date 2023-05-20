@@ -1,4 +1,5 @@
 
+
 body {
   background-color: black;
 }
@@ -52,10 +53,18 @@ body {
   align-content: center;
 }
 
+
+.videoHolderContainer {
+  display:  grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .videoHolder {
   vertical-align: top;
-  display: inline-block;
   
+  /* display: inline-block; */
+  /* grid-template-columns: 1fr 1fr; */
+
   margin-left: 25px;
   margin-right: 50px;
   margin-top:  10px;
@@ -69,6 +78,9 @@ body {
   font-family: 'Franklin Gothic Medium';
   font-size: 30;
   /* width: 257px; */
+
+  display: grid;
+  grid-template-columns: 100px 3fr;
 }
 
 .videoTitle, .videoDescriptions, .videoStats {
