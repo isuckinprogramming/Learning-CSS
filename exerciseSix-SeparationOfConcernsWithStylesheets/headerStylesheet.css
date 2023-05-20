@@ -1,0 +1,35 @@
+
+.headerDisplay {
+
+  display: flex ;
+  flex-direction: row;
+}
+
+.centerDisplay {
+
+  flex: 1;
+}
+
+.leftSideDisplay {
+
+  flex: 1;
+}
+
+.rightSideDisplay {
+
+  flex:1;
+}
+
+#inputReceiver {
+  font-size: 23px;
+  border-radius: 10px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+  
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  /* display:block; */
+
+}

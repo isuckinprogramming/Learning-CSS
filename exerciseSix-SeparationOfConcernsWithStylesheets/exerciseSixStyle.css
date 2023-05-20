@@ -4,25 +4,16 @@ body {
   background-color: black;
 }
 
-#inputReceiver {
-  font-size: 23px;
-  border-radius: 10px;
 
-  margin-left: 15px;
-  margin-right: 15px;
-  
-  margin-top: 25px;
-  margin-bottom: 25px;
-
-  display:block;
-}
 
 #inputReceiver :hover {
+
   background-color: rgba(134, 145, 135, 0.808);
   font-size: 45rem;
 }
 
 .channelIconHolder, .textDetails {
+
   display: inline-block;
   vertical-align:  top;
 }
@@ -31,6 +22,7 @@ body {
 
   width : 30%px;
 }
+
 .channelIconHolder {
 
   width: 50px;
@@ -45,9 +37,8 @@ body {
   border-radius: 25px;
 }
 
-
-
 .videoThumbnail {
+
   width : 75%;
   height : 60%;
   align-content: center;
@@ -55,11 +46,20 @@ body {
 
 
 .videoHolderContainer {
+
   display:  grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+
+  column-gap:  20px;
+  row-gap: 20px;
+
+  padding: 10px;  
+  margin: 20px;
 }
 
 .videoHolder {
+
   vertical-align: top;
   
   /* display: inline-block; */
@@ -74,6 +74,7 @@ body {
 }
 
 .videoDetails {
+
   color: white;
   font-family: 'Franklin Gothic Medium';
   font-size: 30;
@@ -89,11 +90,13 @@ body {
 }
 
 .videoTitle {
+
   font-size: 35px;
   font-weight: 600;
   line-height: 4px;
 }
 
 .videoStats {
+ 
   color: rgba(143, 130, 130, 0.753);
 }
