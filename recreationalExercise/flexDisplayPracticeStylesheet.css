@@ -1,5 +1,8 @@
 .container-div {
 
+  grid-row-start: 1;
+  grid-column-start: span 2;
+
   display: flex;
   flex-direction: row;
 }
@@ -7,14 +10,27 @@
 .leftSideDiv {
   background-color: lightpink;
   flex: 1;
+
+  /* display:flex ;
+  flex-direction: row; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
 }
 
+.ytLogo {
+
+  /* border-radius: 25px; */
+  /* flex: 1; */
+}
 .rightSideDiv {
   background-color: chocolate;
   flex: 1;
 
   display: flex;
   flex-direction:  row;
+  flex-wrap: wrap;
 }
 
 .centerSideDiv {
@@ -30,4 +46,34 @@
   margin: 10px;
   background-color: rgba(228, 240, 57, 0.726);
   flex: 1;
+}
+
+.sideOptions {
+
+  display: flex ;
+  flex-direction: column;
+
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+
+
+
+
+  background-color: rgba(67, 67, 228, 0.87);
+}
+
+
+.sideIcons {
+
+  flex: 1;
+
+  background-color:  lightskyblue;
+}
+
+#mainContents {
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
 }
