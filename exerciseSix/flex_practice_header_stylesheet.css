@@ -1,0 +1,29 @@
+
+.container {
+
+  /* design to make the container visible  */
+  border-color: black;
+  border-radius: 25px;
+  background-color: rgba(102, 69, 69, 0.226);
+
+  padding: 40px;
+
+  /* design properties to design the contents inside 
+  of the container  */
+  display: flex;
+  flex-direction: row;
+  
+  justify-content:  space-between;
+  justify-content: center;
+
+  align-items: end;
+}
+
+.contents_type_1 {
+
+  background-color: rgba(221, 31, 31, 0.575);
+}
+
+.contents_type_2 {
+  background-color: rgba(175, 37, 175, 0.719);
+}
