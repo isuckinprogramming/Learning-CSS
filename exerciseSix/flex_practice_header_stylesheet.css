@@ -1,26 +1,44 @@
 
-.container {
 
-  /* design to make the container visible  */
+.container {
+  
+  padding: 30px;
+  margin: 45px;
+
   border-color: black;
   border-radius: 25px;
-  background-color: rgba(102, 69, 69, 0.226);
 
-  padding: 40px;
+  display: flex;
+  flex-direction: row ;
+}
+
+
+#container_center {
+
+  /* design to make the container visible  */
+  background-color: rgba(102, 69, 69, 0.226);
 
   /* design properties to design the contents inside 
   of the container  */
-  display: flex;
-  flex-direction: row;
-  
-  justify-content:  space-between;
-  justify-content: center;
 
+  justify-content: center;
   align-items: end;
 }
 
-.contents_type_1 {
+#container_space_between {
 
+  background-color: rgba(210, 180, 12, 0.772);
+  justify-content:  space-between;
+}
+
+#container_space_around {
+
+  background-color: rgba(121, 197, 41, 0.845);
+  justify-content: space-evenly ;
+}
+
+
+.contents_type_1 {
   background-color: rgba(221, 31, 31, 0.575);
 }
 
